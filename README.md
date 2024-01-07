@@ -4,7 +4,7 @@ Bem-vindo ao meu repositório de exercícios da disciplina de Programação 1 da
 
 ## Estrutura do Repositório
 
-- 📁 **semana000**: Contém os exercícios da semana "x", onde você pode encontrar tanto as instruções quanto a minha implementação.
+- 📁 **aula000**: Contém os exercícios da aula "x", onde você pode encontrar tanto as instruções quanto a minha implementação.
 
 ## Como Navegar
 
