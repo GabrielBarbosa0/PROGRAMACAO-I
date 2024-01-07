@@ -23,7 +23,7 @@ Fique à vontade para explorar, clonar ou sugerir melhorias nos códigos. Se tiv
 
 As aulas e os materiais desta disciplina são de autoria do professor Lucas Sampaio da Universidade de Pernambuco.
 
-**Agradecimentos**
+## Agradecimentos
 
 Agradeço à UPE e aos professores da disciplina por proporcionarem esses desafios que contribuem para o meu aprendizado em programação. Se você é um colega de classe, não hesite em compartilhar suas soluções ou discutir os exercícios!
 
