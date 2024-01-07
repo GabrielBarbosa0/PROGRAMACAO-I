@@ -19,7 +19,7 @@ Os exercícios foram resolvidos predominantemente nas seguintes linguagens de pr
 
 Fique à vontade para explorar, clonar ou sugerir melhorias nos códigos. Se tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma [issue](link_para_issues)!
 
-##Créditos
+## Créditos
 
 As aulas e os materiais desta disciplina são de autoria do professor Lucas Sampaio da Universidade de Pernambuco.
 
