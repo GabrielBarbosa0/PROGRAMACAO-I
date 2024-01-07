@@ -1,0 +1,1 @@
+numero = input("Digite um numero menor que 1000")
