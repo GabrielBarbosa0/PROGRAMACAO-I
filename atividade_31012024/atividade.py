@@ -254,50 +254,50 @@ else:
 
 #//////////////////////////////////////////
 
-#Questão 16. Leia a idade e o tempo de serviço de um trabalhador e escreva se ele podeounão se aposentar. As condições para aposentadoria são: 
+#Questão 16. Leia a idade e o tempo de serviço de um trabalhador e escreva se ele pode ou não se aposentar. As condições para aposentadoria são: 
 #- Ter pelo menos 65 anos, 
 #- Ou ter trabalhado pelo menos 30 anos, 
 #- Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
 
-old = int(input("Digite sua idade: "))
-time_service = int(input("Digite o tempo de total de trabalho: "))
+idade = int(input("Digite sua idade: "))
+tempo_trabalho = int(input("Digite o tempo de total de trabalho: "))
 
-if old < time_service:
+if idade < tempo_trabalho:
     print("Erro!, digite um valor válido!!")
 else:
-    if old >= 65 or time_service >= 30:
+    if idade >= 65 or tempo_trabalho >= 30:
       print("Aposentadoria aprovada!!")
-    elif old >= 60 and time_service >= 25:
+    elif idade >= 60 and tempo_trabalho >= 25:
       print("Aposentadoria aprovada!!")
     else:
-       print("Aposentadoria Negada!")
+       print("Aposentadoria negada!")
 
 
 #//////////////////////////////////////////
     
-#Questão 17. Leia a distância em Km e a quantidade de litros de gasolina consumidos por umcarro em um percurso, calcule o consumo em Km/l e escreva uma mensagemdeacordo com a tabela abaixo: 
+#Questão 17. Leia a distância em Km e a quantidade de litros de gasolina consumidos por um carro em um percurso, calcule o consumo em Km/l e escreva uma mensagemdeacordo com a tabela abaixo: 
 # MENOR QUE 8 = VENDA O CARRO
 # ENTRE 8 E 14 = ECONIMICO
 # MAIOR QUE 14 = SUPER ECONOMICO
 #OBS: NO PDF O MAIOR QUE TA 12
 
 distancia = int(input("Digite a distancia: "))
-km_l = int(input("Digite a quantidade em Litros de gasolina: "))
+kilometro_litro = int(input("Digite a quantidade em Litros de gasolina: "))
 
-dist_km = distancia / km_l
+distancia_kilometro = distancia / kilometro_litro
 
-if dist_km < 8:
-    print("Por favor vrnda o carro!!")
-elif dist_km >= 8 and dist_km <= 14:
-    print("Carro Economico!")
-elif dist_km > 14:
-    print("Carro super Economico!!")
+if distancia_kilometro < 8:
+    print("Por favor venda o carro!!")
+elif distancia_kilometro >= 8 and distancia_kilometro <= 14:
+    print("Carro econômico!")
+elif distancia_kilometro > 14:
+    print("Carro super econômico!!")
 
 #//////////////////////////////////////////
 
 '''■ Estruturas de repetição '''
 
-#Questão 18. Escreva um programa que escreva na tela, de 1 até 100, de 1 em1, 2 vezes. Aprimeira vez deve usar a estrutura de repetição “for”, a segunda vez a estrutura“while”. 
+#Questão 18. Escreva um programa que escreva na tela, de 1 até 100, de 1 em1, 2 vezes. A primeira vez deve usar a estrutura de repetição “for”, a segunda vez a estrutura “while”. 
 
 #WHILE
 i = 1
@@ -311,13 +311,13 @@ for i in range(1, 101):
 
 #//////////////////////////////////////////
 
-#Questão 19. Faça um programa que peça ao usuário para digitar 10 valores e some-os eimprima o resultado. 
+#Questão 19. Faça um programa que peça ao usuário para digitar 10 valores e some-os e imprima o resultado. 
 
-sum = 0
+soma = 0
 for i in range(1,11):
-    num = int(input("Digite um numero: "))
+    num = int(input("Digite um número: "))
     sum += num
-print(f'A soma dos numeros e: {sum}')
+print(f'A soma dos números é: {soma}')
 
 #//////////////////////////////////////////
 
@@ -332,25 +332,25 @@ print(f'A media dos numeros digitados e: {media_num:.2f}')
 
 #//////////////////////////////////////////
 
-#Questão 21. Faça um programa que leia 10 inteiros positivos, ignorando não positivos, eimprima sua média. 
+#Questão 21. Faça um programa que leia 10 inteiros positivos, ignorando não positivos, e imprima sua média. 
 
 sum = 0
 count = 0
 for i in range(1, 11):
-    num = int(input("Digite um numero13: "))
+    num = int(input("Digite um numero 13: "))
     if num > 0:
         sum += num
         count += 1
        
 media = sum / count
-print(f'Sua media dos numeros: {media}')
+print(f'A média dos números é: {media}')
 
 #//////////////////////////////////////////
 
 #Questão 22. Faça um programa que leia um numero inteiro “N” e depois imprima os Nprimeiros números naturais ímpares. 
 
 
-num = int(input("Digite um numero inteiro (N): "))
+num = int(input("Digite um número inteiro (N): "))
 impar = 1
 for i in range(num):
     print(impar, end=' ')
@@ -358,9 +358,9 @@ for i in range(num):
 
 #//////////////////////////////////////////
     
-#Questão 23. Faça um programa que leia um numero inteiro positivo “N” e imprima todos osnúmeros naturais de 0 até “N” em ordem crescente.
+#Questão 23. Faça um programa que leia um numero inteiro positivo “N” e imprima todos os números naturais de 0 até “N” em ordem crescente.
 
-num = int(input("Digite um numero: "))
+num = int(input("Digite um número: "))
 i = 0
 
 if num >= 0:
@@ -373,7 +373,7 @@ else:
     
 #Questão 24. Faça um programa que leia um numero inteiro positivo “N” e imprima todos osnúmeros naturais de 0 até N em ordem decrescente. 
 
-num = int(input("Digite um numero: "))
+num = int(input("Digite um número: "))
 
 if num > 0:
     while num >= 0:
@@ -409,8 +409,8 @@ elif num1 > num2:
 
 print(f'''
       
-As somas dos numeros pares desse intervalo: {sum}
-A multiplicacao desse intervalo: {mult}
+As somas dos números pares desse intervalo: {sum}
+A multiplicação desse intervalo é: {mult}
 
 ''')
 
@@ -418,7 +418,7 @@ A multiplicacao desse intervalo: {mult}
 
 #Questão 26. Faça um programa que imprima a tabuada de multiplicação de 1 a 9; 
 
-num = int(input("Qual Numero que deseja saber a tabuada? "))
+num = int(input("Qual número que deseja saber a tabuada? "))
 
 i = 1
 while i < 10:
@@ -439,11 +439,11 @@ while i < 10:
 #16 17 18 19 20 21
 
 
-num = int(input("Digite um numero inteiro: "))
+numero_inteiro = int(input("Digite um número inteiro: "))
 
 numero = 1
 
-for li in range(1, num+1):
+for li in range(1, numero_inteiro+1):
     for coluna in range(1, li+1):
         print(numero, end=" ")
         numero += 1
