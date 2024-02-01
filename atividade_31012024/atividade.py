@@ -39,7 +39,7 @@ graus_celsius = float(input("Digite o graus Celsius: "))
 
 fahrenheit = graus_celsius*(9.0/5.0)+32.0
 
-print(f'({graus_celsius:2f} °C x 9/5) + 32 = {f:2} °F')
+print(f'({graus_celsius:2f} °C x 9/5) + 32 = {fahrenheit:2} °F')
 
 #//////////////////////////////////////////
 
@@ -121,7 +121,7 @@ if numero > 0:
     raiz = numero ** 0.5
     print(f'''          
 O número {numero} elevado ao quadrado: {quadrado}
-A Raiz do número {numerom} é: {raiz}
+A Raiz do número {numero} é: {raiz}
 ''')
     
 elif numero == 0:
