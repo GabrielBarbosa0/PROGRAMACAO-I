@@ -2,18 +2,13 @@
 # mostre o primeiro número elevado ao segundo número. Não utilize a função 
 # de potência da linguagem ou o operador de exponenciação
 
-# Como calcular potência? A potência pode ser calculada por meio da notação, isto é, multiplicar o número base por ele mesmo quantas vezes o expoente mandar. Assim, quando temos 5⁴, multiplicamos o cinco por ele mesmo quatro vezes seguida, totalizando 3125.
+base = int(input("Digite a base: "))
+expoente = int(input("Digite o expoente: "))
 
+resultado = 1
 
-num_base = int(input("Digite o numero da base: "))
-3
-num_expoente = int(input("Digite o numero do expoente: "))
+while expoente > 0:
+    resultado *= base
+    expoente -= 1
 
-# resultado = num_base*num_base*num_expoente
-
-teste = num_base
-
-for variavel in range(2):
-    teste = teste * num_base
-
-# print(teste)
+print(f"Resultado é: {resultado}")
