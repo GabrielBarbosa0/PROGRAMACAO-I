@@ -15,6 +15,7 @@
 # print("Texto cifrado:", texto_cifrado)
 
 
+
 # Teste cifra de cesar
 
 texto_original = str(input('Digite uma frase: '))
@@ -35,7 +36,6 @@ for caractere in texto_original:
     texto_cifrado += novo_caractere
 
 print("Texto cifrado:", texto_cifrado)
-
 
 # Descriptografar mensagem
 
