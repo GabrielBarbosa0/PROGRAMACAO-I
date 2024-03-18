@@ -21,7 +21,7 @@ Fique à vontade para explorar, clonar ou sugerir melhorias nos códigos. Se tiv
 
 ## Créditos
 
-As aulas e os materiais desta disciplina são de autoria do professor Lucas Sampaio da Universidade de Pernambuco.
+As aulas e os materiais desta disciplina são de autoria do professor [Lucas Sampaio](https://github.com/lucassampaioleite)  da Universidade de Pernambuco.
 
 ## Agradecimentos
 
