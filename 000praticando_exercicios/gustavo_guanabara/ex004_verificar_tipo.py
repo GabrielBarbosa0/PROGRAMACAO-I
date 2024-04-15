@@ -1,0 +1,10 @@
+texto = input('digite algo: ')
+
+print(f'o texto só tem espaços? {texto.isspace()}')
+print(f'o tipo primitivo desse valor é {type(texto)}')
+print(f'é um numero? {texto.isalnum()}')
+print(f'é  alfabetico? {texto.isalpha()}')
+print(f'é alfanumerico {texto.isalnum()}')
+print(f'esta em maiculas? {texto.isupper()}')
+print(f'esta em minuscula? {texto.islower()}')
+print(f'e capitalizada? {texto.istitle()}')

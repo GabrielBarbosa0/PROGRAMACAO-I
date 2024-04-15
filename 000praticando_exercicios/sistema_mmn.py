@@ -11,6 +11,7 @@
 class Usuario:
     def __init__(self, id, nome, indicado_por=None):
         self.id = id
+        
         self.nome = nome
         self.indicado_por = indicado_por
         self.indicacoes = []  # Lista para armazenar os usuários indicados por este usuário
