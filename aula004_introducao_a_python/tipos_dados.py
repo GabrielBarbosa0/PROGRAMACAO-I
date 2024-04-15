@@ -1,5 +1,0 @@
-print(type(1))
-print(type(1.1))
-print(type(1 + 1.1))
-print(type("Texto"))
-print(type(1.1, 1, "texto"))

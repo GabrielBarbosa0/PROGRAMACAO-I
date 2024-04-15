@@ -1,6 +1,0 @@
-numero = float(input('digite um numero'))
-if numero % 2 == 0: print('numero par')
-else: print('numero impar')
-if numero > 0: print('numero positivo')
-elif numero < 0: print('numero negativo')
-else: print('numero é zero')
