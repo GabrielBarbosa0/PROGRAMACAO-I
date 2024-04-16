@@ -1,0 +1,82 @@
+# Questão 1
+
+# num = int(input('Digite um numero: '))
+# count = 0
+
+# for i in range(1, num+1):
+#     for x in range(1, i+1):
+#         print(count+1, end= ' ')
+#         count +=1
+#     print()
+
+
+# ////////////////////////////////////////////
+
+
+# Questão 2
+    
+# num1 = int(input('Digite um numero: '))
+# num2 = int(input('Digite outro numero: '))
+# soma = 0
+# mult = 1
+
+# for i in range(num1, num2+1):
+#     if i % 2 == 0:
+#         soma = soma+i
+#     if i % 2 == 1:
+#         mult = mult*i
+# print(f'essa é a soma do intervalo: {soma}')
+# print(f'essa é a multiplicação do intevalo: {mult}')
+
+
+# ////////////////////////////////////////////
+
+
+# Questão 3
+
+            # 0       1         2
+# lista = ['pasta', 'agua', 'papaguaio']
+
+# lista = []
+# lista_tratada = []
+
+# for i in range(3):
+#     lista = str(input('Digite uma string: '))
+
+# for i in range(0, len(lista_tratada))):
+#    lista_tratada.append(i)
+# print(lista_tratada)
+    
+# if len(lista[0]) > len(lista[1]) and len(lista[1]) > len(lista[2]):
+#     print(f'a string maior é : {len(lista[0])}')
+# elif len(lista[1]) > len(lista[2]) and len(lista[1]) > len(lista[0]):
+#     print(f'a string maior é {len(lista[1])}')
+# elif len(lista[2]) > len(lista[1]) and len(lista[2]) > len(lista[0]):
+#     print(f'a string maior é {len(lista[1])}')
+# else:
+#     print(f'a string maior é {len(lista[2])}')
+
+
+# ////////////////////////////////////////////
+
+# Questão 4
+
+# string = str(input('Digite uma palavra: '))
+# string = string.lower()
+
+# alfabeto = ['a','c','b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# correcao = sorted(alfabeto)
+
+# # alfabeto = ['ABCDEFGHIJKLMNOPQRSTUVWXYZ']
+# cifrado = ['a','b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+# # for i in range():
+# # rotacao = int(input('Digite a rotacao: '))
+
+# # cifrada = print[]
+
+# print(alfabeto[0])
+
+
+# # # print('palavra original  ', palavra)
+# # # print('palavra cifrada ', cifrada)
