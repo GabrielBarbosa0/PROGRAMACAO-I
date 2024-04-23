@@ -12,3 +12,5 @@ for i in nome_separado:
     contador+=1
 
 print(f'{contador}')
+
+
