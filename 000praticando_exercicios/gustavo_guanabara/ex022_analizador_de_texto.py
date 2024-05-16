@@ -13,4 +13,3 @@ for i in nome_separado:
 
 print(f'{contador}')
 
-
